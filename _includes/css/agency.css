@@ -11,6 +11,8 @@ body {
 }
 
 .text-muted {
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-size: 22px;
     color: #777;
 }
 
@@ -651,7 +653,7 @@ section h3.section-subheading {
     margin-bottom: 0;
     text-transform: none;
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .team-member p {

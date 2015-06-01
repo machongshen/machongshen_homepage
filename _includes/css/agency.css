@@ -628,7 +628,7 @@ section h3.section-subheading {
         padding: 0 100px 20px 20px;
     }
 }
-
+@media(min-width:1200px) {
 .team-member {
     margin-bottom: 25px;
     margin: 0 auto;
@@ -656,7 +656,7 @@ section h3.section-subheading {
     margin-top: 0;
     text-align: center;
 }
-
+}
 aside.clients img {
     margin: 50px auto;
 }

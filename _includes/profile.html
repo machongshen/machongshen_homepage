@@ -9,21 +9,18 @@
             </div>
 
                 <div class="row">
-                {% for member in site.people %}
                 <div class="col-sm-4 center">
                         <div class="team-member center"><center>
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted text-center">{{ member.position }}</p>
+                        <h4>Chongshen (Ray) Ma</h4>
+                        <p class="text-muted text-center">A 2nd-year Master Student, major in Computer Science,</p>
                         <ul class="list-inline social-buttons center">
                             {% for network in member.social %}
                             <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                             {% endfor %}
-
                         </ul></center>
                     </div>
                 </div>
-                {% endfor %}
             </div>
 
             <div class="row">

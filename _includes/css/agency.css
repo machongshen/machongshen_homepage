@@ -638,6 +638,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin-bottom: 25px;
+    margin: 0 auto;
     border: 7px solid #fff;
     text-align: center;
 }
@@ -652,7 +653,6 @@ section h3.section-subheading {
 
 .team-member p {
     margin-bottom: 25px;
-
     margin-top: 0;
     text-align: center;
 }

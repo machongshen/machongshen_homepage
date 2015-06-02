@@ -6,11 +6,13 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     color: #{{ site.color.secondary-dark }};
 }
 
 .text-muted {
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-size: 22px;
     color: #777;
 }
 
@@ -176,7 +178,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
     color: #{{ site.color.primary }};
 }
 
@@ -245,6 +248,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
+
         transition: all .3s;
     }
 
@@ -282,17 +286,17 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    color: #fed136;
+    margin-bottom: 50px;
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -335,7 +339,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     font-style: italic;
     font-weight: 400;
 }
@@ -347,6 +351,7 @@ section h3.section-subheading {
 }
 
 .service-heading {
+    font-size:24px;
     margin: 15px 0;
     text-transform: none;
 }
@@ -443,7 +448,7 @@ section h3.section-subheading {
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #527A7A;
 }
 
 .timeline>li {
@@ -491,7 +496,7 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #00E6E6;
     border-radius: 100%;
     text-align: center;
     color: #fff;
@@ -628,27 +633,37 @@ section h3.section-subheading {
         padding: 0 100px 20px 20px;
     }
 }
-
+@media(min-width:1200px) {
 .team-member {
+    margin-bottom: 25px;
+    margin: 0 auto;
     margin-bottom: 50px;
     text-align: center;
 }
 
 .team-member img {
+    margin-bottom: 25px;
     margin: 0 auto;
     border: 7px solid #fff;
+    text-align: center;
 }
 
 .team-member h4 {
+    margin-bottom: 25px;
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+    text-align: center;
+    font-size: 26px;
 }
 
 .team-member p {
+    margin-bottom: 25px;
     margin-top: 0;
+    text-align: center;
+    font-size: 22px;
 }
-
+}
 aside.clients img {
     margin: 50px auto;
 }

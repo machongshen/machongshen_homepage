@@ -12,20 +12,19 @@ color:
   secondary: fec503  
   secondary-dark: 333
 
-# Team names, titles and social links
+# Profile names, titles and social links
 people:
 
-
-- name: Larry Parker
+- name: Chongshen Ma
   pic: 2
-  position: Lead Marketer
+  position: A 2nd-year Master Student in Computer Science, Language Technologies Institute, School of Computer Science, Carnegie Mellon University.
   social:
     - title: twitter
       url: #
-    - title: facebook
-      url: #
+    - title: github
+      url: http://github.com/machongshen
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/chongshenma
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
